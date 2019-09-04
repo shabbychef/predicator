@@ -1,0 +1,42 @@
+(******************************************************************************
+ ** sources.cm
+ ** sml
+ **
+ ** Aleksandar Nanevski
+ ** CM file for expression compiler
+ ******************************************************************************)
+
+Library
+  structure Real
+  structure ExtendedFloat
+  structure XFloat
+  structure Ulps
+  
+  signature SOURCE
+  structure Source
+  signature TARGET
+  structure Target
+  signature COMPILE
+  structure Compile
+
+is
+  ../float/sources.cm
+  ../exfloat/sources.cm
+  ../rational/sources.cm
+  ../../table/sources.cm
+
+  Ulps.sml
+  VAR.sml
+  Var.sml
+  VarTab.sml	
+  VarSet.sml
+  Parser.sml
+  Context.sml
+  SOURCE.sml
+  Source.sml
+  TARGET.sml
+  Target.sml
+  COMPILE.sml
+  Compile.sml 
+
+

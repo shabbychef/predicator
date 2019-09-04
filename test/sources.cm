@@ -1,0 +1,24 @@
+(******************************************************************************
+ ** sources.cm
+ ** sml
+ **
+ ** Aleksandar Nanevski
+ ** CM file for testing the expression compiler
+ ******************************************************************************)
+
+Library
+  structure ExactPredicates
+  structure CompilerTest
+  structure ExfloatMinSphere
+  structure Timing
+
+is
+  ../sources.cm
+  ../../test/test.cm
+  ../../rational/sources.cm
+  ../../interval/sources.cm
+
+  ExactPredicates.sml
+  CompilerTest.sml 
+  MinSphere.sml
+  Timing.sml
